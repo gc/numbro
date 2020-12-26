@@ -59,7 +59,7 @@ declare namespace numbro {
 
         set(value: number): this;
 
-        value(): number;
+        value(): number | undefined;
 
         valueOf(): number;
     }
